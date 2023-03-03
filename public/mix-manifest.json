@@ -1,3 +1,7 @@
 {
-    "/js/app.js": "/js/app.js"
+    "/js/app.js": "/js/app.js",
+    "/css/todo.css": "/css/todo.css",
+    "/images/apple-park.jpeg": "/images/apple-park.jpeg",
+    "/images/mark.png": "/images/mark.png",
+    "/images/trash.png": "/images/trash.png"
 }

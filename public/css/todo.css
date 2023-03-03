@@ -1,0 +1,61 @@
+body {
+  background-image: url('/images/apple-park.jpeg');
+  background-size: cover;
+  font-family: 'Arial Bold', sans-serif;
+}
+
+.title {
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  text-shadow: 0 0 10px #00000099;
+}
+
+.todo-input {
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: 50px;
+  font-size: 35px;
+  border-radius: 10px;
+  border-width: 2px;
+  background-color: #00000099;
+  padding: 5px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.todo-list {
+  display: block;
+  margin: auto;
+  width: 50%;
+  min-height: 450px;
+  background-color: #ffffffd9;
+  padding: 5px;
+  border-radius: 10px;
+  border-width: 2px;
+}
+
+.todo-item-container {
+  display: flex;
+  align-items: center;
+}
+
+.todo-item {
+  margin: 7px 5px;
+  color: #515050;
+  font-size: 30px;
+  flex: 1 auto;
+}
+
+.marked {
+  text-decoration: line-through;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 2px;
+  margin-left: 2px;
+  cursor: pointer;
+}
